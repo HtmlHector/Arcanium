@@ -1,0 +1,26 @@
+@theme {
+    --color-primary: #010127;
+    --color-secondary: #283D3B;
+    --color-contrast: #191919;
+}
+
+
+html, body, #root, #page__wrapper {
+    height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+.button__primary {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 0.8em 3em;
+    font-size: 1.01rem;
+    font-weight: 500;
+}
+
+.cta {
+    background-image: linear-gradient(to right, #ffffff, #f1f5f8, #e1eced, #d5e2dc, #d2d6c8);
+}
